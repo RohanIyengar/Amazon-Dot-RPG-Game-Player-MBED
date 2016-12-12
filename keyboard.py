@@ -1,3 +1,8 @@
+'''
+Class that allows Windows keyboard inputs to be hit programmatically.
+Taken and modified from: http://stackoverflow.com/questions/11906925/python-simulate-keydown
+'''
+
 import ctypes
 
 LONG = ctypes.c_long
